@@ -1,0 +1,62 @@
+MAINTENANCE LOG — Hauptstraße 42
+Records from 2023–2025
+
+DATE: 2023-03-12
+APARTMENT: 3B
+ISSUE: Bathroom radiator not heating
+REPORTED BY: Tenant email
+STATUS: Resolved — Technician replaced thermostat valve. 2 business days response time.
+
+DATE: 2023-06-05
+APARTMENT: 1A
+ISSUE: Broken kitchen window latch
+REPORTED BY: Tenant email
+STATUS: Resolved — Hausmeister replaced latch same day.
+
+DATE: 2023-09-20
+APARTMENT: All
+ISSUE: Annual boiler inspection
+TYPE: Scheduled maintenance
+STATUS: Complete — Next inspection due September 2024.
+
+DATE: 2024-01-15
+APARTMENT: 2C
+ISSUE: Water leak under sink
+REPORTED BY: Tenant phone call (emergency line)
+STATUS: Resolved — Plumber dispatched within 4 hours. Pipe joint replaced.
+
+DATE: 2024-04-03
+APARTMENT: 4A
+ISSUE: Mould on bathroom ceiling
+REPORTED BY: Tenant letter
+STATUS: Resolved — Ventilation improved, anti-mould paint applied. Tenant advised to ventilate daily.
+
+DATE: 2024-07-22
+APARTMENT: Building-wide
+ISSUE: Intercom system failure
+TYPE: Common area
+STATUS: Resolved — System replaced by specialist company. 3-day outage.
+
+DATE: 2024-09-18
+APARTMENT: All
+ISSUE: Annual boiler inspection
+TYPE: Scheduled maintenance
+STATUS: Complete — Minor adjustment to pressure relief valve. Next inspection September 2025.
+
+DATE: 2025-01-08
+APARTMENT: 3A
+ISSUE: Heating not working during cold snap
+REPORTED BY: Tenant emergency line call
+STATUS: Resolved — Circulation pump replaced within 6 hours. Tenant provided portable heater during repair.
+
+DATE: 2025-02-14
+APARTMENT: Basement
+ISSUE: Laundry room washing machine fault (error code E5)
+REPORTED BY: Multiple tenants
+STATUS: Resolved — Appliance technician replaced drum bearing. Machine out of service 4 days.
+
+GENERAL NOTES
+Average response time for emergencies: under 8 hours.
+Average response time for non-emergencies: 3 business days.
+Preferred contact for new issues: hausmeister@immobilien-berlin.de
+Always include apartment number and photos when reporting issues.
