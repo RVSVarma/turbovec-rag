@@ -38,7 +38,7 @@ def get_embeddings():
 # ─── Index management ─────────────────────────────────────────────────────────
 
 def build_index(docs_dir: str = DOCS_DIR, index_path: str = INDEX_PATH) -> TurboQuantVectorStore:
-    print(f"📄 Loading documents from '{docs_dir}' ...")
+    print(f"Loading documents from '{docs_dir}' ...")
     loader = DirectoryLoader(
         docs_dir,
         glob="**/*.txt",
@@ -51,7 +51,7 @@ def build_index(docs_dir: str = DOCS_DIR, index_path: str = INDEX_PATH) -> Turbo
     if not raw_docs:
         raise ValueError(f"No documents found in '{docs_dir}'. Add .txt files and try again.")
 
-    print(f"✂️  Chunking {len(raw_docs)} document(s) ...")
+    print(f"Chunking {len(raw_docs)} document(s) ...")
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=500,
         chunk_overlap=50,
@@ -59,14 +59,14 @@ def build_index(docs_dir: str = DOCS_DIR, index_path: str = INDEX_PATH) -> Turbo
     chunks = splitter.split_documents(raw_docs)
     print(f"   → {len(chunks)} chunks created")
 
-    print("🔢 Embedding and indexing with turbovec ...")
+    print("Embedding and indexing with turbovec ...")
     embeddings = get_embeddings()
     
     Path(index_path).parent.mkdir(parents=True, exist_ok=True)
     vectorstore = TurboQuantVectorStore.from_documents(
         chunks, embeddings, persist_path=index_path
     )
-    print(f"💾 Index saved → {index_path}")
+    print(f"Index saved → {index_path}")
 
     return vectorstore
 
@@ -148,15 +148,15 @@ def main():
     vectorstore = get_vectorstore()
     rag = build_rag_graph(vectorstore)
 
-    print("\n✅ RAG pipeline ready. Type 'quit' to exit.\n")
+    print("\nRAG pipeline ready. Type 'quit' to exit.\n")
     while True:
-        question = input("❓ Question: ").strip()
+        question = input("Question: ").strip()
         if question.lower() in {"quit", "exit", "q"}:
             break
         if not question:
             continue
         answer = ask(question, rag)
-        print(f"\n💬 Answer:\n{answer}\n{'─'*60}\n")
+        print(f"\nAnswer:\n{answer}\n{'─'*60}\n")
 
 
 if __name__ == "__main__":
