@@ -2,7 +2,7 @@
 turbovec-rag: Local RAG pipeline using turbovec + LangGraph + Claude
 """
 
-import os
+# import os
 from pathlib import Path
 from typing import TypedDict, List
 
@@ -72,7 +72,7 @@ def build_index(docs_dir: str = DOCS_DIR, index_path: str = INDEX_PATH) -> Turbo
 
 
 def load_index(index_path: str = INDEX_PATH) -> TurboQuantVectorStore:
-    print(f"📂 Loading index from '{index_path}' ...")
+    print(f"Loading index from '{index_path}' ...")
     return TurboQuantVectorStore.load(index_path, get_embeddings())
 
 
