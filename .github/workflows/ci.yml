@@ -33,7 +33,7 @@ jobs:
       - name: Smoke test – import pipeline (no API key needed)
         run: |
           python -c "
-          from langchain.text_splitter import RecursiveCharacterTextSplitter
+          from langchain_text_splitters import RecursiveCharacterTextSplitter
           from langchain_community.embeddings import HuggingFaceEmbeddings
-          print('✅ Imports OK')
+          print('Imports OK')
           "

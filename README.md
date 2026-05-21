@@ -42,7 +42,7 @@ turbovec-rag/
 
 ## Installation
 
-git clone git clone https://github.com/RVSVarma/turbovec-rag.git
+git clone https://github.com/RVSVarma/turbovec-rag.git
 cd turbovec-rag
 
 python -m venv .venv
